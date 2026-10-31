@@ -1,0 +1,15 @@
+aws_region                = "ap-south-1"
+project_name              = "account-security-baseline"
+trail_name                = "account-security-baseline"
+secret_name               = "prod/db"
+secret_recovery_days      = 7
+cloudtrail_retention_days = 90
+
+# Add only bucket ARNs developers need to read. Empty means no S3 permissions.
+developer_s3_bucket_arns = []
+
+# GuardDuty may incur charges after its free trial.
+enable_guardduty = false
+
+# Keep false unless this isolated practice project specifically needs an IAM user.
+create_example_iam_user = false
