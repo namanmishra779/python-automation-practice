@@ -1,5 +1,9 @@
 # Python Automation Practice
 
+Beginner Python lessons and the disk/log health-check exercise are grouped in [`python-practice/`](python-practice/README.md).
+
+See that project README for setup instructions and safe preview-first cleanup commands.# Python Automation Practice
+
 A beginner-friendly collection of Python exercises, ending with a disk and log health-check script.
 
 ## Lessons
